@@ -1,5 +1,5 @@
-var Helper = require("../utils/Helper")
-var ResponseBuilder = require("../utils/ResponseBuilder")
+const Helper = require("../utils/Helper")
+const ResponseBuilder = require("../utils/ResponseBuilder")
 
 class LoanController {
   static getRepayment(req, res) {
