@@ -1,12 +1,12 @@
 /** Imports */
-var express = require("express");
-var routes = require("./api/routers/Routes")
-var compression = require("compression");
-var bodyParser = require("body-parser");
-var helmet = require("helmet");
+const express = require("express");
+const routes = require("./api/routers/Routes")
+const compression = require("compression");
+const bodyParser = require("body-parser");
+const helmet = require("helmet");
 
-var app = express();
-var port = 3000;
+const app = express();
+const port = 3000;
 
 app.use(compression());
 app.use(helmet());
