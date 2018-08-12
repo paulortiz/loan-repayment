@@ -2,8 +2,10 @@
 
 How to run
 ```
-npm install
-nodemon app.js
+Open terminal
+
+$ npm install
+$ nodemon app.js
 ```
 
 How to test on Rest Client
