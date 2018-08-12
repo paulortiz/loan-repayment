@@ -8,11 +8,11 @@ nodemon app.js
 
 How to test on Rest Client
 ```
-http://localhost/repayment
+http://localhost:3000/repayment
 ```
 
 Headers
 ```
-***amount (Double)*** - Loan Amount requested by customer
-***tenure (Int)*** - Tenure in months
+amount (Double) - Loan Amount requested by customer
+tenure (Int) - Tenure in months
 ```
