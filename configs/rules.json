@@ -1,40 +1,40 @@
 {
-  "rules": [
-    {
-      "amount": {
-        "min": 25000,
-        "max": 50000
-      },
-      "tenure": [
-        { "min": 1, "max": 6,"percent": 1 },
-        { "min": 6, "max": 12, "percent": 1.5 },
-        { "min": 12, "max": 18, "percent": 2 },
-        { "min": 18, "max": 24, "percent": 2.5 }
-      ]
-    },
-    {
-      "amount": {
-        "min": 50000,
-        "max": 75000
-      },
-      "tenure": [
-        { "min": 1, "max": 6, "percent": 0.5 },
-        { "min": 6, "max": 12, "percent": 1 },
-        { "min": 12, "max": 18, "percent": 1.5 },
-        { "min": 18, "max": 24, "percent": 2 }
-      ]
-    },
-    {
-      "amount": {
-        "min": 75000,
-        "max": 100000
-      },
-      "tenure": [
-        { "min": 1, "max": 6, "percent": 0.3 },
-        { "min": 6, "max": 12, "percent": 0.8 },
-        { "min": 12, "max": 18, "percent": 1 },
-        { "min": 18, "max": 24, "percent": 1.2 }
-      ]
-    }
-  ]
+    "rules": [
+        {
+            "amount": {
+                "min": 25000,
+                "max": 50000
+            },
+            "tenure": [
+                { "min": 1, "max": 6,"percent": 1 },
+                { "min": 6, "max": 12, "percent": 1.5 },
+                { "min": 12, "max": 18, "percent": 2 },
+                { "min": 18, "max": 24, "percent": 2.5 }
+            ]
+        },
+        {
+          "amount": {
+              "min": 50000,
+              "max": 75000
+          },
+          "tenure": [
+              { "min": 1, "max": 6, "percent": 0.5 },
+              { "min": 6, "max": 12, "percent": 1 },
+              { "min": 12, "max": 18, "percent": 1.5 },
+              { "min": 18, "max": 24, "percent": 2 }
+          ]
+        },
+        {
+          "amount": {
+              "min": 75000,
+              "max": 100000
+          },
+          "tenure": [
+              { "min": 1, "max": 6, "percent": 0.3 },
+              { "min": 6, "max": 12, "percent": 0.8 },
+              { "min": 12, "max": 18, "percent": 1 },
+              { "min": 18, "max": 24, "percent": 1.2 }
+          ]
+        }
+    ]
 }

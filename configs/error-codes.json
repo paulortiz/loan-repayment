@@ -1,10 +1,10 @@
 {
-  "INVALID_AMOUNT": {
-    "code": 1000,
-    "message": "Invalid Amount. Please select within 250000 to 100000"
-  },
-  "INVALID_TENURE": {
-    "code": 2000,
-    "message": "Invalid Tenure. Please select within 1 to 2.5"
-  }
+    "INVALID_AMOUNT": {
+        "code": 1000,
+        "message": "Invalid Amount. Please select within 250000 to 100000"
+    },
+    "INVALID_TENURE": {
+        "code": 2000,
+        "message": "Invalid Tenure. Please select within 1 to 2.5"
+    }
 }
