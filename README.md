@@ -13,6 +13,6 @@ http://localhost:3000/repayment
 
 Headers
 ```
-amount (Double) - Loan Amount requested by customer
+amount (Int) - Loan Amount requested by customer
 tenure (Int) - Tenure in months
 ```
