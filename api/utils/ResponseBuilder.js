@@ -1,5 +1,5 @@
 
-var errorCodes = require("../../configs/error-codes.json")
+const errorCodes = require("../../configs/error-codes.json")
 
 class ResponseBuilder {
   static error(code) {

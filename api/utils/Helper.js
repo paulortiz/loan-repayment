@@ -1,4 +1,4 @@
-var configuredRules = require("../../configs/rules.json")
+const configuredRules = require("../../configs/rules.json")
 
 class Helper {
 
