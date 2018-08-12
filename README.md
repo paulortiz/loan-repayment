@@ -12,5 +12,7 @@ http://localhost/repayment
 ```
 
 Headers
+```
 ***amount (Double)*** - Loan Amount requested by customer
 ***tenure (Int)*** - Tenure in months
+```
