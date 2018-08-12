@@ -1,4 +1,9 @@
-# Loan Repayment
+# Loan Repayment Service
+
+Repository
+```
+git clone https://github.com/paulortiz/loan-repayment.git
+```
 
 How to run
 ```
