@@ -8,15 +8,15 @@ class LoanController {
             let tenure = req.get("tenure");
 
             if (!Helper.isAmountValid(amount)) {
-              let error = ResponseBuilder.error("INVALID_AMOUNT")
-              res.send(error)
-              return
+                let error = ResponseBuilder.error("INVALID_AMOUNT")
+                res.send(error)
+                return
             }
 
             if (!Helper.isTenureValid(tenure)) {
-              let error = ResponseBuilder.error("INVALID_TENURE")
-              res.send(error)
-              return
+                let error = ResponseBuilder.error("INVALID_TENURE")
+                res.send(error)
+                return
             }
 
             amount = parseInt(amount)
