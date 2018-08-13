@@ -5,14 +5,16 @@ class Helper {
     static computeRepayment(amount, tenure) {
         var interest = this.getInterest(amount, tenure)
         var factor = (interest / 100)
-        var repayment = (amount * factor) + amount
-        let monthly = repayment / tenure
+        var endingPrincipal = (amount * factor) + amount
+        let monthly = endingPrincipal / tenure
+        let interestAmount = endingPrincipal - amount
 
         return {
-            interest: `${interest}%`,
-            monthly: monthly,
-            repayment: repayment,
-            loanAmount: amount,
+            interest,
+            monthly,
+            endingPrincipal,
+            interestAmount,
+            originalPrincipal: amount,
             tenureInMonths: tenure,
             tenure: {
                 years: Math.floor(tenure / 12),
